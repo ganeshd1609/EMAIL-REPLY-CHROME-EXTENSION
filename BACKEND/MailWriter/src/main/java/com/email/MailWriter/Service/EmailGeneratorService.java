@@ -89,7 +89,7 @@ private final String apiKey;
                     .append(emailRequest.getTone())
                     .append("tone.");
         }
-        prompt.append("Orignal Email: ").append(emailRequest.getEmailContent());
+        prompt.append("Orignal Emailn: ").append(emailRequest.getEmailContent());
         return prompt.toString();
 
     }
